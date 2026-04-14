@@ -19,7 +19,7 @@ Compare six LLM reranker configurations to determine the best cost/quality trade
 - **Shared stages:** screen → extract → classify (run once, reused across all variants)
 - **Divergent stages:** evidence → curate → adjudicate (6× parallel, each with a different reranker)
 - **Adjudication:** claude-opus-4-6 with extended thinking (identical across all variants)
-- **Calibration sample size:** 50 (13 tasks survived extraction and classification)
+- **Audit sample size:** 50 (13 tasks survived extraction and classification)
 - **Ground truth:** 7 of 13 tasks graded by domain expert
 
 ### Variants
